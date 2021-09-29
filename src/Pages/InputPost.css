@@ -1,0 +1,87 @@
+.InPost {
+    padding-top: 50px;
+  }
+  
+  .InPostImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .InPostForm {
+    position: relative;
+  }
+  
+  .InPostFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .InPostIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .InPostInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+  }
+  
+  .InPostInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .InPostInput:focus {
+    outline-style: none;
+  }
+  
+  .InPostText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .InPostSubmit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  @media only screen and (max-width:600px){
+    .InPostImg {
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+      .InPostFormGroup {
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+      }
+  }
